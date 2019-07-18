@@ -1,0 +1,22 @@
+server:
+  port: 1102
+  host: http://9ved2s.natappfree.cc
+  
+logging:
+  level:
+    org.springframework.web: INFO
+    com.github.binarywang.demo.wx.mp: DEBUG
+    me.chanjar.weixin: DEBUG
+wx:
+  mp:
+    configs:
+      #自己申请的订阅号
+      - appId: wx03c13f393f80222d
+        secret: misneW-zirta4-naxkin
+        token: faewf2312
+        aesKey: BjrIZ1i7ArtbvPESmgxetvRkFs80QUDiffOoFCKwxmt
+      #测试服务号
+      - appId: wxe0ed553e8ec3e48c
+        secret: 6df0fb78a26325fd9daf0e1056f90a4a
+        token: faewf2312
+        aesKey: BjrIZ1i7ArtbvPESmgxetvRkFs80QUDiffOoFCKwxmt
